@@ -1,0 +1,221 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomePage.master.cs" Inherits="hancer.av.tr.HomePage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Law Firm Website DenizHancer" name="keywords">
+    <meta content="Law Firm Website DenizHancer" name="description">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <!-- CSS Libraries -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <title>DH LAW OFFICE</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <style>
+        .a1 {
+            font-size: 30pt;
+        }
+
+        .m1 {
+            font-size: 25px;
+            height: 90px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .a1 {
+                font-size: 12pt;
+            }
+
+            .m1 {
+                font-size: 10px;
+                height: 175px;
+            }
+        }
+    </style>
+    <!-- Top Bar Start -->
+    <div class="top-bar m1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="container-fluid">
+                        <a style="font-size: 22px; color: #c68d33; margin-top: 12px" class="navbar-brand a1" href="Default.aspx">
+                            <img src="image/logo.png" alt="logo" width="60" height="60" class="d-inline-block align-text-center">
+                            DH LAW OFFICE
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="top-bar-right">
+                        <div class="text a1">
+                            <h2>9.00 - 18.00</h2>
+                            <p>
+                                Working Hours
+                                <br />
+                                Monday - Friday
+                            </p>
+                        </div>
+                        <div class="text">
+                            <h2>+90 212 982 74 92</h2>
+                            <p>Call Us</p>
+                        </div>
+                        <div style="text-decoration: none" class="social">
+                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/company/dh-law-office/"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+    <!-- Nav Bar Start -->
+    <div class="nav-bar">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <a href="#" class="navbar-brand"></a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto">
+                        <a href="Default.aspx" class="nav-item nav-link active">HOME</a>
+                        <a href="about.aspx" class="nav-item nav-link">ABOUT US</a>
+                        <div class="nav-item dropdown">
+                            <a href="services.aspx" class="nav-link dropdown-toggle" data-toggle="dropdown">SERVICES</a>
+                            <div class="dropdown-menu">
+                                <a href="services.aspx" class="dropdown-item">Project Finance</a>
+                                <a href="services.aspx" class="dropdown-item">Banking & Finance</a>
+                                <a href="services.aspx" class="dropdown-item">Corporate & Commercial Law</a>
+                                <a href="services.aspx" class="dropdown-item">Mergers & Acquisitions</a>
+                                <a href="services.aspx" class="dropdown-item">Energy Law</a>
+                                <a href="services.aspx" class="dropdown-item">Competition Law</a>
+                                <a href="services.aspx" class="dropdown-item">Capital Markets Law</a>
+                                <a href="services.aspx" class="dropdown-item">Litigation and Dispute Resolution</a>
+                                <a href="services.aspx" class="dropdown-item">Labour Law</a>
+                                <a href="services.aspx" class="dropdown-item">Compliance (KVKK, GDPR, E-Commerce)</a>
+                                <a href="services.aspx" class="dropdown-item">Real Estate</a>
+                                <a href="services.aspx" class="dropdown-item">Restructuring & Insolvency</a>
+                                <a href="services.aspx" class="dropdown-item">Criminal Law</a>
+                                <a href="services.aspx" class="dropdown-item">Family Law</a>
+                                <a href="services.aspx" class="dropdown-item">Administrative law</a>
+                                <a href="services.aspx" class="dropdown-item">Foreigners Law</a>
+                            </div>
+                        </div>
+                        <a href="articles.aspx" class="nav-item nav-link">PUBLICATIONS</a>
+                        <a href="contact.aspx" class="nav-item nav-link">CONTACT</a>
+                    </div>
+                    <div class="ml-auto">
+                        <a class="btn" href="../Default.aspx">
+                            <img style="width: 30px; height: 30px;" src="../img/flag.ico" alt="flag" />
+                        </a>
+                        <a class="btn" href="rus/Index.aspx">
+                            <img style="width: 30px; height: 30px;" src="../img/rusFlag.ico" alt="flag" />
+                        </a>
+                        <a class="btn" href="../index.aspx">
+                            <img style="width: 30px; height: 30px;" src="../img/turkflag.ico" alt="flag" />
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="footer-about">
+                        <h2>About</h2>
+                        <p>
+                            DH Law Office was established by Attorney Deniz HANÇER and provides services in Istanbul. Our office, which provides services to foreign clients as well as domestic clients; pays attention to the working principles of trust, confidentiality, and transparency. 
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-8">
+                    <div class="row">
+                        <div style="margin-left: 100px" class="col-md-6 col-lg-4">
+                            <div class="footer-link">
+                                <h2>Our Service Areas</h2>
+                                <a href="services.aspx">Project Finance</a>
+                                <a href="services.aspx">Banking & Finance</a>
+                                <a href="services.aspx">Corporate & Commercial Law</a>
+                                <a href="services.aspx">Mergers & Acquisitions</a>
+                                <a href="services.aspx">Energy Law</a>
+                                <a href="services.aspx">More ...</a>
+                            </div>
+                        </div>
+                        <div style="margin-left: 120px" class="col-md-6 col-lg-4">
+                            <div class="footer-contact">
+                                <h2>Contact Us</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>Merkez Mah. Abide-i Hürriyet Cad. Blackout Plaza A Blok Kat:1 No:211 D:64 İstanbul/Şişli</p>
+                                <p style="text-decoration: none;"><i class="fa fa-phone-alt"></i><a href="tel:+902129827492">+90 212 982 74 92</a></p>
+                                <p style="text-decoration: none"><i class="fa fa-envelope"></i><a href="mailto:deniz@hancer.av.tr">deniz@hancer.av.tr</a></p>
+                                <div class="footer-social">
+                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- KVKK YAZISI BAŞLANGIÇ -->
+        <div class="container footer-menu">
+            <div class="f-menu">
+                <p style="color: white; font-size: 8pt">
+                    www.hancer.av.tr It should not be used as a legal opinion or basis in any way. The contents may be out of date and may not reflect the latest version of the legislation or legal practices in force. Therefore, DH LAW OFFICE cannot be held responsible for any inaccuracies or deficiencies in the information on this site or for the consequences arising from the use of this information. they can't. All information and files on this site belong to DH LAW BÜROSU and cannot be copied, reproduced or used without our written permission. It is strictly forbidden to open new links on this site and/or create a link to this site, unless expressly permitted in writing by DH LAW OFFICE.
+                </p>
+            </div>
+        </div>
+        <!-- KVKK YAZISI BİTİŞ -->
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; <a href="https://www.hancer.av.tr">DH LAW OFFICE</a>, All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Designed By <a href="mailto:selimtasdemirr@outlook.com">Selim Taşdemir</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
